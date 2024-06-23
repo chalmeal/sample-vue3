@@ -1,0 +1,42 @@
+// text
+.text-head {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(38, 166, 154);
+}
+.text-150p {
+  font-size: 150%;
+}
+.text-130p {
+  font-size: 130%;
+}
+
+// contents
+.content-main-center {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.content-center {
+  margin: 1rem;
+  justify-content: center;
+}
+
+// card
+.card-main {
+  padding: 1;
+  border-color: rgb(200, 200, 200);
+  width: 70vw;
+}
+
+// table
+
+// cursol
+.clickable {
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ccc;
+  }
+}
